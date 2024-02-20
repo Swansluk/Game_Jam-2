@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
@@ -23,8 +24,11 @@ public class Health : MonoBehaviour
     void FixedUpdate()
     {
         if (hp <= 0)
-        { 
-            Destroy(gameObject);
+        {
+            //Destroy(gameObject);
+            //needs work...
+            SceneManager.LoadScene("MainMenu");
+            //SceneManager.UnloadSceneAsync("SimpleScene");
         }
     }
 }
