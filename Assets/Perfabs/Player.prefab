@@ -299,7 +299,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   jumpPower: 3
   jumpCooldown: 0.25
-  airMultiplier: 0.4
+  airMultiplier: 0.2
   crouchSpeed: 5
   crouchYScale: 0.5
   maxSlopeAngle: 40
@@ -319,7 +319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9969bdbc9068de74f95863bfcc49255f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slideKey: 0
+  slideKey: 9
   orientaiton: {fileID: 5094553952680186723}
   playerObj: {fileID: 4358035626515685026}
   maxSlideTime: 0.75
