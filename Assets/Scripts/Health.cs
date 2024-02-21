@@ -7,6 +7,7 @@ public class Health : MonoBehaviour
 {
     [SerializeField] private int hp;
     [SerializeField] private int maxHealth;
+    [SerializeField] private string PostDeathScene;
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +28,7 @@ public class Health : MonoBehaviour
         {
             //Destroy(gameObject);
             //needs work...
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene(PostDeathScene);
             //SceneManager.UnloadSceneAsync("SimpleScene");
         }
     }
