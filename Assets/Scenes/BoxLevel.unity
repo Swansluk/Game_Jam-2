@@ -50414,7 +50414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   surface: {fileID: 1790542090}
-  updateDelay: 5
+  updateDelay: 1.5
 --- !u!1 &1791371104
 GameObject:
   m_ObjectHideFlags: 0

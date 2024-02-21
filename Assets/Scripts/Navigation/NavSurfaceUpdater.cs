@@ -23,6 +23,7 @@ public class NavSurfaceUpdater : MonoBehaviour
         if (timer >= updateDelay)
         {
             surface.BuildNavMesh();
+            timer = 0.0f;
         }
     }
 }
