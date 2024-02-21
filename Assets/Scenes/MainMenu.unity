@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f38e49d8c5fac14abe87cd1dce54750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newGameScene: ChaseLevel
+  newGameScene: BoxLevel
 --- !u!1 &291405970
 GameObject:
   m_ObjectHideFlags: 0
