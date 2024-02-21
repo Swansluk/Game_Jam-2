@@ -12,11 +12,19 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+<<<<<<< Updated upstream
+=======
+  - _EMISSION
+>>>>>>> Stashed changes
   - _NORMALMAP
   - _SPECGLOSSMAP
   m_InvalidKeywords:
   - _METALLICGLOSSMAP
+<<<<<<< Updated upstream
   m_LightmapFlags: 5
+=======
+  m_LightmapFlags: 1
+>>>>>>> Stashed changes
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -73,11 +81,22 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EmissionScaleUI: 0
+<<<<<<< Updated upstream
     - _Glossiness: 0.5
+=======
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+>>>>>>> Stashed changes
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+<<<<<<< Updated upstream
+=======
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+>>>>>>> Stashed changes
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
